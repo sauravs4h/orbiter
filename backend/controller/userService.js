@@ -54,7 +54,7 @@ const logIn = async (req, res) => {
           var token = jwt.sign({ foo: "bar" }, "shhhhh");
           res.status(200).json({ msg: "Login Successfull ", token: token });
         } else {
-            res.status(401).json({msg:"Wrong craditionals"})
+            res.status(401).json({message:"Wrong craditionals"})
         }
       });
     } else {
