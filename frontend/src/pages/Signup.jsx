@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import axios from "axios";
 
+//const api="http://localhost:8080"
+const api="https://orbiter.onrender.com"
+
 function Signup() {
   const [signupData, setSignupData] = useState({
     firstName: "",
@@ -16,7 +19,7 @@ function Signup() {
 
   const handleInput = (e) => {
     setSignupData({ ...signupData, [e.target.name]: e.target.value });
-    console.log(e.target.name, e.target.value);
+    
   };
 
   const navigate = useNavigate();
@@ -27,10 +30,10 @@ function Signup() {
     try {
       let payload=signupData;
 
-      let resData=await axios.post("http://localhost:8080/user/signup",payload);
+      let resData=await axios.post(`${api}/user/signup`,payload);
       let result=resData.data
       alert(result.message)
-      console.log(result)
+      
       
     } catch (error) {
       alert(error.message)

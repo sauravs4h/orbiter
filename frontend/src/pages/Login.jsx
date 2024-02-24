@@ -9,20 +9,22 @@ import {
 } from "../redux/Auth/action";
 import axios from "axios";
 
+
+//const api="http://localhost:8080";
+const api="https://orbiter.onrender.com"
+
 function Login() {
   const [data, setData] = useState({ email: "", password: "" });
   let authData = useSelector((store) => {
     return store.authReducer;
   });
 
-  useEffect(() => {
-    console.log(authData);
-  }, [authData]);
+  
 
   const handleInputChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
 
-    console.log(data);
+    
   };
 
   let dispatch = useDispatch();
@@ -35,7 +37,7 @@ function Login() {
     try {
       let payload = data;
       let resData = await axios.post(
-        "http://localhost:8080/user/login",
+        `${api}/user/login`,
         payload
       );
 
