@@ -69,7 +69,7 @@ Redux is used for state management in the frontend.
 
 ## Deployment
 - Backend Deployment Link: https://orbiter.onrender.com
-- Frontend Deployment Link: 
+- Frontend Deployment Link: https://orbiters4h.netlify.app/
 
 ## Video Presentation
 https://drive.google.com/file/d/1bWp3k02hut9kQK5c6SLCA-2Uh5Iqd5ft/view?usp=sharing
