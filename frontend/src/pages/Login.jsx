@@ -42,6 +42,7 @@ function Login() {
       alert("Login Success");
 
       setData({ email: "", password: "" });
+      navigate("/profile");
     } catch (error) {
       dispatch(loginRequestFailure());
       alert("Wrong credentials");

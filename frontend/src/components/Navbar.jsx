@@ -7,13 +7,13 @@ function Navbar() {
 
   return (
     <nav>
-      <div>
+      {/* <div>
         <h3 onClick={() => navigate("/")}>Orbiter</h3>
       </div>
       <div>
         <button onClick={() => navigate("/login")}>login</button>
         <button onClick={() => navigate("/private")}>Private Page</button>
-      </div>
+      </div> */}
     </nav>
   );
 }
