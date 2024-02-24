@@ -1,18 +1,36 @@
+/* Signup page CSS */
+
+#signuppage {
+  display: flex;
+  justify-content: center;
+  padding-right: 10%;
+  gap: 30px;
+}
+
+/* #signuppage div {
+  border: 1px solid black;
+} */
+
+#leftside img {
+  max-width: 70%;
+}
+
+#rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .signup-form-container {
-  max-width: 400px;
+  border: 1px solid #e2e2e2;
+  width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f0f0f0; 
 }
 
 .signup-form-container h2 {
   text-align: center;
-  margin-bottom: 20px;
-}
-
-.signup-form-container form {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .signup-form-container .form-group {
@@ -20,25 +38,55 @@
 }
 
 .signup-form-container .form-group label {
-  display: block; 
+  display: block;
   margin-bottom: 5px;
 }
 
 .signup-form-container .form-group input {
+  background-color: #fafafa;
+  border: 0.5px solid #dedede;
   width: 80%;
   padding: 8px;
   font-size: 16px;
 }
 
 .signup-form-container button {
-  background-color: #007bff; 
-  color: #fff; 
+  background-color: #4cb5f9;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  width: 85%;
+  border-radius: 20px;
+  transition: all 0.3s ease;
 }
 
 .signup-form-container button:hover {
-  background-color: #0056b3; 
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.goforlogin {
+  border: 1px solid #e2e2e2;
+}
+
+.goforlogin a {
+  color: blue;
+  cursor: pointer;
+}
+
+.goforlogin a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  #signuppage {
+    flex-direction: column;
+    align-items: center;
+  }
 }
