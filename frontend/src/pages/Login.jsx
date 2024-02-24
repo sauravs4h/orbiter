@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/Login.css";
 import Navbar from "../components/Navbar";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import {
   loginRequest,
   loginRequestFailure,
@@ -14,6 +15,7 @@ import axios from "axios";
 const api="https://orbiter.onrender.com"
 
 function Login() {
+  const navigate = useNavigate();
   const [data, setData] = useState({ email: "", password: "" });
   let authData = useSelector((store) => {
     return store.authReducer;
@@ -88,7 +90,7 @@ function Login() {
           <button type="submit">Login</button>
         </form>
         <p>
-          Don't have an account? <a href="/signup">Sign up</a>
+          Don't have an account? <button onClick={() => navigate("/signup")}>Sign up</button>
         </p>
       </div>
     </div>
