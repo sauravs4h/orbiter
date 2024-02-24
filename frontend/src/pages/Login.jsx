@@ -39,7 +39,6 @@ function Login() {
       let token = result.token;
 
       dispatch(loginRequestSuccess(token));
-      alert("Login Success");
 
       setData({ email: "", password: "" });
       navigate("/profile");

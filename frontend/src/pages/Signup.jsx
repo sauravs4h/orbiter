@@ -32,10 +32,11 @@ function Signup() {
       let resData = await axios.post(`${api}/user/signup`, payload);
       let result = resData.data;
       alert(result.message);
+      navigate("/login");
     } catch (error) {
       alert(error.message);
     }
-    navigate("/login");
+    
   }
   return (
     <div id="signuppage">
