@@ -1,0 +1,102 @@
+.profile {
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  padding-left: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 40px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-header-left {
+}
+
+.profile-picture {
+  /* margin-top: 40px; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-header-right {
+  text-align: left;
+  flex: 1;
+}
+
+.profile-header-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.edit-profile-btn {
+  background-color: #3897f0;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-header-middle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.post-count,
+.followers-count,
+.following-count {
+  font-weight: bold;
+}
+
+.profile-header-bottom h3 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.profile-header-bottom h3:last-child {
+  margin-bottom: 0;
+}
+
+/* Center align the profile information */
+.profile-header-bottom {
+  text-align: center;
+}
+
+/* Style the profile information */
+.profile-header-bottom h3 {
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-header-bottom h3:first-child {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the counts */
+.profile-header-middle span {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Style the "Edit Profile" button */
+.edit-profile-btn {
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-profile-btn:hover {
+  background-color: #3578e5;
+}
