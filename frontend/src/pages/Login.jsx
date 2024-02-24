@@ -1,0 +1,96 @@
+import React, { useState, useEffect } from "react";
+import "../css/Login.css";
+import Navbar from "../components/Navbar";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  loginRequest,
+  loginRequestFailure,
+  loginRequestSuccess,
+} from "../redux/Auth/action";
+import axios from "axios";
+
+function Login() {
+  const [data, setData] = useState({ email: "", password: "" });
+  let authData = useSelector((store) => {
+    return store.authReducer;
+  });
+
+  useEffect(() => {
+    console.log(authData);
+  }, [authData]);
+
+  const handleInputChange = (e) => {
+    setData({ ...data, [e.target.name]: e.target.value });
+
+    console.log(data);
+  };
+
+  let dispatch = useDispatch();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    dispatch(loginRequest());
+
+    try {
+      let payload = data;
+      let resData = await axios.post(
+        "http://localhost:8080/user/login",
+        payload
+      );
+
+      let result = resData.data;
+      let token = result.token;
+
+      dispatch(loginRequestSuccess(token));
+      alert("Login Success");
+
+      setData({ email: "", password: "" });
+    } catch (error) {
+      dispatch(loginRequestFailure());
+      alert("Wrong credentials");
+    }
+  };
+
+  return (
+    <div>
+      <Navbar />
+
+      <div className="login-form-container">
+        <h2>Login</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={data.email}
+              placeholder="Email"
+              required
+              onChange={handleInputChange}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={data.password}
+              placeholder="Password"
+              required
+              onChange={handleInputChange}
+            />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <p>
+          Don't have an account? <a href="/signup">Sign up</a>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default Login;
