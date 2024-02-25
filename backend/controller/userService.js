@@ -45,6 +45,7 @@ const logIn = async (req, res) => {
 
     if (userAvailable) {
       const hashPassword = userAvailable.password;
+      const userName= userAvailable.userName
 
       bcrypt.compare(password, hashPassword, function (err, result) {
         if (err) {
@@ -52,7 +53,7 @@ const logIn = async (req, res) => {
         }
         if (result) {
           var token = jwt.sign({ foo: "bar" }, "shhhhh");
-          res.status(200).json({ msg: "Login Successfull ", token: token });
+          res.status(200).json({ msg: "Login Successfull ", token: token,userName });
         } else {
             res.status(401).json({message:"Wrong craditionals"})
         }
@@ -65,4 +66,20 @@ const logIn = async (req, res) => {
   }
 };
 
-module.exports = { signUp, logIn };
+
+const getUser=async(req,res)=>{
+
+  const {userName}= req.params;
+
+  try {
+
+    let user= await Usermodel.findOne({userName});
+
+    res.status(200).json({user});
+    
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+}
+
+module.exports = { signUp, logIn,getUser };
