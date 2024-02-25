@@ -32,7 +32,7 @@ function Signup() {
       let resData = await axios.post(`${api}/user/signup`, payload);
       let result = resData.data;
       alert(result.message);
-      navigate("/login");
+      navigate("/");
     } catch (error) {
       alert(error.message);
     }
@@ -121,7 +121,7 @@ function Signup() {
         </div>
         <div className="goforlogin">
           <p>
-            Have an account? <a onClick={() => navigate("/login")}>Login</a>
+            Have an account? <a onClick={() => navigate("/")}>Login</a>
           </p>
         </div>
       </div>
