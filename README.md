@@ -1,7 +1,7 @@
 # ORBITER
 
 ## Description
-This project implements login and signup functionality with backend built using Node.js and frontend using React. It includes a backend API with endpoints for user signup and login, along with frontend pages for home, login, signup, and a private page. If a user attempts to access the private page without being logged in, they will be redirected to the login page. Redux is utilized for state management in the frontend.
+This project implements login and signup functionality with backend built using Node.js and frontend using React. It includes a backend API with endpoints for user signup, login, and retrieving user profile, along with frontend pages for login, signup, and user profile. If a user attempts to access the profile page without being logged in, they will be redirected to the login page. Redux is utilized for state management in the frontend.
 
 ## Backend
 
@@ -12,7 +12,7 @@ This project implements login and signup functionality with backend built using 
 4. Create a `.env` file and add the necessary environment variables (e.g., database connection URL, JWT secret).
 
 ### Running the Server
-- Run `npx nodemon index.js` to start the backend server.
+- Run `npm start` to start the backend server.
 
 ### Endpoints
 
@@ -48,6 +48,13 @@ This project implements login and signup functionality with backend built using 
   - 200 OK: `{ "msg": "Login Successfull", "token": "JWT_TOKEN" }`
   - 401 Unauthorized: `{ "message": "Please signup first" }` or `{ "message": "Wrong credentials" }`
 
+#### Get User Profile
+- Endpoint: `GET /api/profile/:userName`
+- Description: Retrieves user profile by username.
+- Response:
+  - 200 OK: `{ "user": { "firstName": "John", "lastName": "Doe", "userName": "johndoe", "email": "johndoe@example.com", "mobile_no": "1234567890" } }`
+  - 404 Not Found: `{ "message": "User not found" }`
+
 ## Frontend
 
 ### Setup
@@ -59,18 +66,16 @@ This project implements login and signup functionality with backend built using 
 - Run `npm start` to start the frontend server.
 
 ### Pages
-- Home: `/`
-- Login: `/login`
+- Login: `/`
 - Signup: `/signup`
-- Private: `/private`
+- User Profile: `/profile/:userName`
 
 ### Redux
 Redux is used for state management in the frontend.
+
 
 ## Deployment
 - Backend Deployment Link: https://orbiter.onrender.com
 - Frontend Deployment Link: https://orbiters4h.netlify.app/
 
-## Video Presentation
-https://drive.google.com/file/d/1bWp3k02hut9kQK5c6SLCA-2Uh5Iqd5ft/view?usp=sharing
 
