@@ -61,12 +61,12 @@
   margin-bottom: 0;
 }
 
-/* Center align the profile information */
+
 .profile-header-bottom {
   text-align: center;
 }
 
-/* Style the profile information */
+
 .profile-header-bottom h3 {
   font-size: 16px;
   color: #333;
@@ -77,14 +77,13 @@
   margin-bottom: 10px;
 }
 
-/* Style the counts */
+
 .profile-header-middle span {
   margin-right: 20px;
   font-size: 16px;
   color: #666;
 }
 
-/* Style the "Edit Profile" button */
 .edit-profile-btn {
   font-size: 14px;
   padding: 8px 16px;
@@ -110,14 +109,14 @@
 .post {
   width: 100%;
   padding: 3%;
-  box-sizing: border-box; /* Include padding in width calculation */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  box-sizing: border-box; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .post img {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove extra space below image */
+  height: auto; 
+  display: block; 
 }
 
 .post-heading {
@@ -127,14 +126,14 @@
   margin-bottom: 20px;
 }
 
-/* Media query for mobile view */
+
 @media screen and (max-width: 767px) {
   .profile-header {
     flex-direction: column;
-    padding-left: 0; /* Remove left padding */
+    padding-left: 0; 
   }
 
   .profile-header-right {
-    padding-top: 20px; /* Add top padding */
+    padding-top: 20px; 
   }
 }

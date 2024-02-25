@@ -54,23 +54,11 @@
 }
 
 .login-form-container button:hover {
-  transform: translateY(-3px); /* Move the button slightly upwards on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* .login-form-container button {
-  background-color: #4cb5f9;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 85%;
-}
 
-.login-form-container button:hover {
-  background-color: #0056b3;
-} */
 
 .goforsignup {
   border: 1px solid #e2e2e2;
@@ -89,22 +77,22 @@
 
 @media screen and (max-width: 767px) {
   #loginpage {
-    flex-direction: column; /* Change to column layout */
-    align-items: center; /* Center the content horizontally */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   #leftside {
-    /* order: 2; Change the order of the left side div */
-    margin-top: 20px; /* Adjust margin */
+    
+    margin-top: 20px; 
   }
 
   #rightside {
-    margin-top: 0; /* Remove top margin */
+    margin-top: 0; 
   }
 
   .login-form-container {
-    width: 100%; /* Full width on mobile */
-    max-width: 350px; /* Limit width for better readability */
+    width: 100%; 
+    max-width: 350px; 
   }
   .goforsignup {
     width: 115%;
