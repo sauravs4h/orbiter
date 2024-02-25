@@ -41,7 +41,7 @@ function Login() {
       dispatch(loginRequestSuccess(token));
 
       setData({ email: "", password: "" });
-      navigate("/profile");
+      navigate(`/profile/${result.userName}`);
     } catch (error) {
       dispatch(loginRequestFailure());
       alert("Wrong credentials");

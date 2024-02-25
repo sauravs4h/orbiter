@@ -106,4 +106,7 @@
     width: 100%; /* Full width on mobile */
     max-width: 350px; /* Limit width for better readability */
   }
+  .goforsignup {
+    width: 115%;
+  }
 }
