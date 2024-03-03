@@ -1,0 +1,84 @@
+.can-i-use {
+  margin: 0;
+  height: 57px;
+  width: 588px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.ellipse-div {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.vector-icon4 {
+  height: 29%;
+  width: 50%;
+  position: absolute;
+  margin: 0 !important;
+  top: 37.67%;
+  right: 25%;
+  bottom: 33.33%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 0 10px;
+  width: 30px;
+  height: 30px;
+}
+.can-i-use-orbiter-for-business-parent,
+.text-input-frame-inner {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.can-i-use-orbiter-for-business-parent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.text-input-frame-inner {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 900px) {
+  .can-i-use-orbiter-for-business-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .can-i-use {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

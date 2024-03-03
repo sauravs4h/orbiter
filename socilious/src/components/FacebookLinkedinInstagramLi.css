@@ -1,0 +1,450 @@
+.facebook-linkedin-instagram-li-child {
+  width: 1920px;
+  height: 800px;
+  position: relative;
+  background-color: var(--color-ivory);
+  display: none;
+  max-width: 100%;
+}
+.logo-1-11 {
+  width: 282px;
+  height: 104.8px;
+  position: relative;
+  object-fit: cover;
+  z-index: 6;
+}
+.connecting-the-world {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.and-ad-free-environment,
+.collaborate-and-thrive,
+.entrepreneurial-spirit-with,
+.entrepreneurs-and-professiona,
+.networking-app-we,
+.our-mission-is,
+.platform-that-brings,
+.we-are-not {
+  margin: 0;
+}
+.we-are-not-container {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  z-index: 1;
+}
+.overview-about-terms-services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px 0;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.feature,
+.overview2,
+.products,
+.solutions {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+}
+.products {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.feature,
+.overview2,
+.solutions {
+  font-weight: 300;
+}
+.overview-group,
+.products-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.overview-group {
+  gap: 15px 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.products-parent {
+  gap: var(--gap-xl);
+}
+.about-us1,
+.company,
+.contact-us3,
+.news4 {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+}
+.company {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.about-us1,
+.contact-us3,
+.news4 {
+  font-weight: 300;
+}
+.about-us-parent,
+.company-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-parent {
+  gap: 15px 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.company-parent {
+  gap: var(--gap-xl);
+}
+.legal,
+.privacy,
+.support,
+.terms-services {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+}
+.legal {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.privacy,
+.support,
+.terms-services {
+  font-weight: 300;
+}
+.legal-parent,
+.terms-services-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.terms-services-parent {
+  gap: 15px 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.legal-parent {
+  gap: var(--gap-xl);
+}
+.frame-parent74,
+.overview-about-us-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent74 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.overview-about-us-frame {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.contact-inputs-icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.msme-udyam-rj-29-0006393 {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  z-index: 2;
+}
+.connect-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 358px;
+  max-width: 100%;
+}
+.connect-frame-child {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.f8b3a1 {
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  z-index: 2;
+}
+.connect-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 150px;
+}
+.m-s-m-e-logo,
+.social-media-follow-us-links,
+.twitter-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.m-s-m-e-logo {
+  flex-direction: row;
+  gap: 0 50px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+}
+.social-media-follow-us-links,
+.twitter-icon {
+  flex-direction: column;
+}
+.twitter-icon {
+  align-self: stretch;
+  gap: 77px 0;
+}
+.social-media-follow-us-links {
+  width: 653px;
+  padding: var(--padding-22xl) var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.follow-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.41px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.facebook-svgrepocom-icon,
+.instagram-svgrepocom-icon,
+.linkedin-svgrepocom-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+  z-index: 1;
+}
+.facebook-instagram-twitter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.twitter-svgrepocom-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.line-divider,
+.social-media-links1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.line-divider {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 26px;
+}
+.social-media-links1 {
+  width: 238px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-22xl) 0 0;
+  box-sizing: border-box;
+}
+.connecting-frame,
+.products-group2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.products-group2 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.connecting-frame {
+  width: 1646px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+}
+.news-support {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.diaspora-hamlet-technologies {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.facebook-linkedin-instagram-li,
+.feature-contact-privacy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.feature-contact-privacy {
+  width: 1680px;
+  gap: 52px 0;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.facebook-linkedin-instagram-li {
+  align-self: stretch;
+  background-color: var(--color-ivory);
+  padding: var(--padding-104xl) var(--padding-xl) var(--padding-70xl);
+  box-sizing: border-box;
+  gap: 40px 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 1750px) {
+  .products-group2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .company,
+  .legal,
+  .products {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .frame-parent74 {
+    flex-wrap: wrap;
+  }
+  .connect-frame {
+    flex: 1;
+    min-width: 100%;
+  }
+  .connect-frame1 {
+    flex: 1;
+  }
+  .m-s-m-e-logo {
+    flex-wrap: wrap;
+    gap: 0 50px;
+  }
+  .twitter-icon {
+    gap: 77px 0;
+  }
+  .social-media-follow-us-links {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .follow-us {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .feature-contact-privacy {
+    gap: 52px 0;
+  }
+  .facebook-linkedin-instagram-li {
+    gap: 40px 0;
+    padding-top: var(--padding-61xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connecting-the-world {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .we-are-not-container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .company,
+  .legal,
+  .products {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+  .f8b3a1,
+  .msme-udyam-rj-29-0006393 {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .twitter-icon {
+    gap: 77px 0;
+  }
+  .follow-us {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+  .diaspora-hamlet-technologies {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .facebook-linkedin-instagram-li {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

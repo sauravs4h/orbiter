@@ -1,0 +1,134 @@
+.logo-1-1 {
+  height: 72px;
+  width: 193.8px;
+  position: relative;
+  object-fit: cover;
+}
+.call-192-svgrepocom-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  white-space: nowrap;
+}
+.message-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 9px;
+}
+.mail-svgrepocom-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ceosociliouscom {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  white-space: nowrap;
+}
+.message-input1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 9px;
+}
+.line,
+.line1 {
+  border-radius: var(--br-31xl);
+}
+.line {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.2px;
+  bottom: 0;
+  left: -0.2px;
+  border: 2px solid var(--color-steelblue);
+  box-sizing: border-box;
+}
+.line1 {
+  height: 50px;
+  width: 47px;
+  position: relative;
+  z-index: 1;
+}
+.apply-for-investment {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 2;
+  margin-left: -15px;
+}
+.component-1,
+.main-nav,
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.component-1 {
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.main-nav,
+.social-media-links {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.social-media-links {
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 0 69px;
+}
+.main-nav {
+  width: 1720px;
+  justify-content: space-between;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 1350px) {
+  .social-media-links {
+    display: none;
+  }
+  .main-nav {
+    width: 939px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .social-media-links {
+    gap: 0 69px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .social-media-links {
+    gap: 0 69px;
+  }
+}

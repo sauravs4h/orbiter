@@ -1,0 +1,203 @@
+.footericonlocation-child {
+  height: 789px;
+  width: 1920px;
+  position: relative;
+  background: linear-gradient(128.51deg, #87d4ff, #ffeb9b);
+  display: none;
+  max-width: 100%;
+}
+.header-frame-child {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 402px;
+}
+.contact-us2 {
+  margin: 0;
+  width: 392px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.header-frame-item {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 402px;
+}
+.header-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.call-192-svgrepocom-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div3 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  white-space: nowrap;
+}
+.call-192-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.mail-svgrepocom-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ceosociliouscom1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.frame-parent72,
+.mail-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.frame-parent72 {
+  gap: 0 50px;
+  max-width: 100%;
+}
+.icon-alternate-map-marker {
+  height: 28.8px;
+  width: 24px;
+  position: relative;
+}
+.jaipur-raj,
+.th-floor-bhamashah {
+  margin: 0;
+}
+.th-floor-bhamashah-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.icon-alternate-map-marker-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 10px;
+  text-align: center;
+}
+.call-to-action-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 0;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.contact-info-frame2,
+.footericonlocation {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-info-frame2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-xl);
+  gap: 30px 0;
+  z-index: 1;
+}
+.footericonlocation {
+  align-self: stretch;
+  background: linear-gradient(128.51deg, #87d4ff, #ffeb9b);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-81xl);
+  min-height: 789px;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 1350px) {
+  .footericonlocation {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header-frame-child {
+    min-width: 100%;
+  }
+  .contact-us2 {
+    font-size: var(--font-size-37xl);
+    line-height: 78px;
+  }
+  .header-frame-item {
+    min-width: 100%;
+  }
+  .frame-parent72 {
+    flex-wrap: wrap;
+    gap: 0 50px;
+  }
+  .footericonlocation {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-us2 {
+    font-size: var(--font-size-23xl);
+    line-height: 59px;
+  }
+  .ceosociliouscom1,
+  .div3,
+  .th-floor-bhamashah-container {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .footericonlocation {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
