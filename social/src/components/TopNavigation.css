@@ -1,0 +1,197 @@
+.call-192-svgrepocom-icon {
+  width: 15%;
+  position: relative;
+  height: 72px;
+  object-fit: cover;
+}
+.logo-1-1 {
+  width: 10%;
+  border: 1px solid black;
+  /* position: relative; */
+  height: 72px;
+  /* object-fit: cover; */
+}
+.call-192-svgrepocom-icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.call-192-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.component-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  height: 50px;
+}
+.component-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  height: 50px;
+}
+.component-1-child {
+  border: 2px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 250px;
+}
+.component-1-item {
+  width: 47px;
+}
+.apply-for-investment1 {
+  position: absolute;
+  top: 14px;
+  left: 33px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.component-1 {
+  width: 250px;
+  position: relative;
+  height: 50px;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.frame-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 70px;
+}
+.logo-1-1-parent {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+
+  /* width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%; */
+}
+
+.logo-1-1-parent > * {
+  border: 1px solid blueviolet;
+  background-color: lightblue;
+}
+
+.home1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.component-26-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 2px;
+  height: 0;
+}
+.component-26,
+.frame-item {
+  width: 71px;
+  position: relative;
+  height: 33px;
+}
+.frame-item {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+.component-27,
+.frame-inner {
+  width: 77px;
+  position: relative;
+  height: 33px;
+}
+.frame-inner {
+  width: 10px;
+  height: 10px;
+}
+.component-28-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 1px;
+  height: 0;
+}
+.component-28 {
+  width: 135px;
+  position: relative;
+  height: 35px;
+}
+.component-29,
+.component-30 {
+  width: 114px;
+  position: relative;
+  height: 34px;
+}
+.component-30 {
+  width: 143px;
+  height: 35px;
+}
+.component-31,
+.component-32,
+.component-33 {
+  width: 62px;
+  position: relative;
+  height: 34px;
+}
+.component-31,
+.component-32 {
+  width: 105px;
+}
+.component-32 {
+  width: 126px;
+}
+.component-26-parent,
+.top-nav {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: var(--font-libre-baskerville);
+}
+.component-26-parent {
+  margin: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 55px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+}
+.top-nav {
+  width: 100%;
+  background-color: lightblue;
+  /* position: absolute; */
+  /* top: 0;
+  left: calc(50% - 960px); */
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: var(--padding-11xl) var(--padding-101xl); */
+  gap: 30px 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+}

@@ -1,0 +1,145 @@
+.welcome-to-orbiter {
+  position: absolute;
+  top: 227px;
+  left: calc(50% - 166px);
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.connect-with {
+  top: 11.5px;
+}
+.connect-with,
+.entreprenuers,
+.investors,
+.mentors {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.mentors {
+  top: 12px;
+  background: linear-gradient(
+    122.9deg,
+    #085a87 2.7%,
+    rgba(255, 205, 4, 0.8) 96.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.entreprenuers,
+.investors {
+  top: 112px;
+}
+.entreprenuers {
+  top: 212px;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.startups,
+.virtual-team {
+  position: absolute;
+  top: 312px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.virtual-team {
+  top: 412px;
+}
+.b-school,
+.companies,
+.organization,
+.virtual-team {
+  top: 512px;
+}
+.companies,
+.organization,
+.virtual-team {
+  top: 612px;
+}
+.organization,
+.virtual-team {
+  top: 712px;
+}
+.virtual-team {
+  top: 812px;
+}
+.component-5 {
+  position: absolute;
+  top: 0;
+  left: 341px;
+  width: 206px;
+  height: 90px;
+  overflow: hidden;
+}
+.connect-with-parent {
+  position: absolute;
+  top: 282px;
+  left: 687px;
+  width: 547px;
+  height: 90px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.funded-by-rajasthan-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.frame-child {
+  width: 0;
+  position: relative;
+  height: 34px;
+  object-fit: contain;
+}
+.funded-by-rajasthan-goverment-parent {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 386px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.hero-image-icon {
+  position: absolute;
+  top: 360px;
+  left: -240px;
+  width: 2401px;
+  height: 924.6px;
+}
+.calender-dynamic-color-icon {
+  position: absolute;
+  top: 878px;
+  left: 1608px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.hero-section {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 32px;
+  color: var(--color-steelblue);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 1200px) {
+  .hero-section {
+    width: 1200px;
+    height: 655px;
+  }
+}

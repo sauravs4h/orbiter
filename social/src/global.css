@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-libre-baskerville: "Libre Baskerville";
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #37454f;
+  --color-darkslategray-200: #36454f;
+  --color-steelblue: #085a87;
+  --color-gray: #7f7f7f;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-101xl: 120px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+}
