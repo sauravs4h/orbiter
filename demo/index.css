@@ -1,0 +1,311 @@
+.welcome-to-orbiter {
+  position: absolute;
+  top: 227px;
+  left: calc(50% - 166px);
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.connect-with {
+  top: 11.5px;
+}
+.connect-with,
+.entreprenuers,
+.investors,
+.mentors {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.mentors {
+  top: 12px;
+  background: linear-gradient(
+    122.9deg,
+    #085a87 2.7%,
+    rgba(255, 205, 4, 0.8) 96.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.entreprenuers,
+.investors {
+  top: 112px;
+}
+.entreprenuers {
+  top: 212px;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.startups,
+.virtual-team {
+  position: absolute;
+  top: 312px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.virtual-team {
+  top: 412px;
+}
+.b-school,
+.companies,
+.organization,
+.virtual-team {
+  top: 512px;
+}
+.companies,
+.organization,
+.virtual-team {
+  top: 612px;
+}
+.organization,
+.virtual-team {
+  top: 712px;
+}
+.virtual-team {
+  top: 812px;
+}
+.component-5 {
+  position: absolute;
+  top: 0;
+  left: 341px;
+  width: 206px;
+  height: 90px;
+  overflow: hidden;
+}
+.connect-with-parent {
+  position: absolute;
+  top: 282px;
+  left: 687px;
+  width: 547px;
+  height: 90px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.funded-by-rajasthan-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.frame-child {
+  width: 0;
+  position: relative;
+  height: 34px;
+  object-fit: contain;
+}
+.funded-by-rajasthan-goverment-parent {
+  position: absolute;
+  top: 382px;
+  left: calc(50% - 386px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.hero-image-icon {
+  position: absolute;
+  top: 360px;
+  left: -240px;
+  width: 2401px;
+  height: 924.6px;
+}
+.calender-dynamic-color-icon {
+  position: absolute;
+  top: 878px;
+  left: 1608px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.call-192-svgrepocom-icon,
+.logo-1-1 {
+  width: 193.8px;
+  position: relative;
+  height: 72px;
+  object-fit: cover;
+}
+.call-192-svgrepocom-icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.call-192-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.component-1-child,
+.component-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  height: 50px;
+}
+.component-1-child {
+  border: 2px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 250px;
+}
+.component-1-item {
+  width: 47px;
+}
+.apply-for-investment {
+  position: absolute;
+  top: 14px;
+  left: 33px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.component-1 {
+  width: 250px;
+  position: relative;
+  height: 50px;
+  font-size: 16px;
+  color: var(--color-steelblue);
+}
+.frame-parent,
+.logo-1-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 70px;
+}
+.logo-1-1-parent {
+  gap: 0 705px;
+}
+.component-26 {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-libre-baskerville);
+  font-size: var(--font-size-3xl);
+  outline: 0;
+  width: 71px;
+  position: relative;
+  height: 33px;
+  color: var(--color-darkslategray-100);
+}
+.frame-item {
+  width: 10px;
+  position: relative;
+  height: 10px;
+  object-fit: cover;
+}
+.socivo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.component-27-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 2px;
+  height: 0;
+}
+.component-27,
+.frame-inner {
+  width: 77px;
+  position: relative;
+  height: 33px;
+}
+.frame-inner {
+  width: 10px;
+  height: 10px;
+}
+.component-28-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 1px;
+  height: 0;
+}
+.component-28 {
+  width: 135px;
+  position: relative;
+  height: 35px;
+}
+.component-29,
+.component-30 {
+  width: 114px;
+  position: relative;
+  height: 34px;
+}
+.component-30 {
+  width: 143px;
+  height: 35px;
+}
+.component-31,
+.component-32,
+.component-33 {
+  width: 62px;
+  position: relative;
+  height: 34px;
+}
+.component-31,
+.component-32 {
+  width: 105px;
+}
+.component-32 {
+  width: 126px;
+}
+.component-26-parent {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 55px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-libre-baskerville);
+}
+.hero-section,
+.top-nav {
+  background-color: var(--color-white);
+}
+.top-nav {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 120px;
+  gap: 30px 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+}
+.hero-section {
+  width: 100%;
+  position: relative;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 32px;
+  color: var(--color-steelblue);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 1200px) {
+  .hero-section {
+    width: 1200px;
+    height: 655px;
+  }
+}

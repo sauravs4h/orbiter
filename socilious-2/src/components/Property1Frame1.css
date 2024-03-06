@@ -1,0 +1,71 @@
+.entreprenuers,
+.investors,
+.mentors {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.mentors {
+  top: 12px;
+  background: linear-gradient(
+    122.9deg,
+    #085a87 2.7%,
+    rgba(255, 205, 4, 0.8) 96.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.entreprenuers,
+.investors {
+  top: 112px;
+}
+.entreprenuers {
+  top: 212px;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.startups,
+.virtual-team {
+  position: absolute;
+  top: 312px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.b-school,
+.companies,
+.incubators,
+.organization,
+.virtual-team {
+  top: 412px;
+}
+.b-school,
+.companies,
+.organization,
+.virtual-team {
+  top: 512px;
+}
+.companies,
+.organization,
+.virtual-team {
+  top: 612px;
+}
+.organization,
+.virtual-team {
+  top: 712px;
+}
+.virtual-team {
+  top: 812px;
+}
+.property-1frame-8 {
+  width: 210px;
+  height: 90px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-libre-baskerville);
+}

@@ -1,0 +1,24 @@
+.property-1default-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  filter: blur(30.5px);
+  width: 12px;
+  height: 48px;
+}
+.entrechat {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.property-1default4 {
+  width: 133px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-libre-baskerville);
+}

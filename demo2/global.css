@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-libre-baskerville: "Libre Baskerville";
+
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+
+  --color-white: #fff;
+  --color-darkslategray-100: #37454f;
+  --color-darkslategray-200: #36454f;
+  --color-steelblue: #085a87;
+  --color-gray: #7f7f7f;
+  --color-black: #000;
+
+  --gap-0: 0px;
+
+  --br-31xl: 50px;
+}

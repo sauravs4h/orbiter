@@ -1,0 +1,460 @@
+/* .bg-layer-blur {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.582);
+}
+.wrapper-bg-layer-blur {
+  position: absolute;
+  top: 166px;
+  left: -195px;
+  width: 2311px;
+  height: 859.8px;
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-1-1 {
+  width: 193.8px;
+  position: relative;
+  height: 72px;
+  object-fit: cover;
+}
+.call-192-svgrepocom-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.call-192-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.mail-svgrepocom-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ceosociliouscom {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.frame-parent,
+.logo-1-1-parent,
+.mail-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.frame-parent,
+.logo-1-1-parent {
+  gap: 0 70px;
+}
+.logo-1-1-parent {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  gap: 0 705px;
+}
+.hero-image-icon {
+  position: absolute;
+  top: 461.3px;
+  left: 191px;
+  width: 1537.7px;
+  height: 823.3px;
+}
+.calender-dynamic-color-icon {
+  position: absolute;
+  height: 5.28%;
+  width: 2.97%;
+  top: 79.44%;
+  right: 14.32%;
+  bottom: 15.28%;
+  left: 82.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.connect-with,
+.welcome-to-orbiter {
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.welcome-to-orbiter {
+  top: 224px;
+  left: 793.5px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-steelblue);
+}
+.connect-with {
+  top: 11.5px;
+  left: 0;
+}
+.connect-with-parent {
+  position: absolute;
+  top: 279px;
+  left: 686.5px;
+  width: 547px;
+  height: 90px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.funded-by-rajasthan-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.frame-child {
+  width: 0;
+  position: relative;
+  height: 34px;
+  object-fit: contain;
+}
+.incubated-in-iit-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.funded-by-rajasthan-goverment-parent {
+  position: absolute;
+  top: 379px;
+  left: 574px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.download-now {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+}
+.download-now-wrapper {
+  border-radius: var(--br-31xl);
+  background: linear-gradient(
+    122.9deg,
+    #085a87 2.7%,
+    rgba(255, 205, 4, 0.8) 96.93%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-21xl);
+}
+.toppng-2-icon {
+  width: 172px;
+  position: relative;
+  height: 52px;
+  object-fit: cover;
+}
+.frame-group {
+  position: absolute;
+  top: 463px;
+  left: 757px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 30px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-inner,
+.frame-item,
+.star-icon {
+  width: 10px;
+  position: relative;
+  height: 10px;
+}
+.component-4-parent {
+  position: absolute;
+  top: 122px;
+  left: calc(50% - 839px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 44px;
+}
+.landing-page1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-libre-baskerville);
+} */
+
+/* .bg-layer-blur {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.582);
+}
+
+.wrapper-bg-layer-blur {
+  position: absolute;
+  top: 166px;
+  left: -195px;
+  width: 2311px;
+  height: 859.8px;
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.bg-layer-blur {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.582);
+}
+
+.wrapper-bg-layer-blur {
+  position: absolute;
+  top: 16%;
+  left: 18%;
+  width: 64%;
+  height: auto;
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-1-1 {
+  width: 16%;
+  position: relative;
+  height: auto;
+  object-fit: cover;
+}
+
+.call-192-svgrepocom-icon,
+.mail-svgrepocom-icon {
+  width: 1.5%;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.div,
+.ceosociliouscom {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.frame-parent,
+.logo-1-1-parent,
+.mail-svgrepocom-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 1.3%;
+}
+
+.frame-parent,
+.logo-1-1-parent {
+  gap: 0 5.7%;
+}
+
+.logo-1-1-parent {
+  position: absolute;
+  top: 2.4%;
+  left: 9.7%;
+  gap: 0 57.1%;
+}
+
+.hero-image-icon {
+  position: absolute;
+  top: 37.2%;
+  left: 15.4%;
+  width: 62.6%;
+  height: auto;
+}
+
+.calender-dynamic-color-icon {
+  position: absolute;
+  height: 5.28%;
+  width: 2.97%;
+  top: 79.44%;
+  right: 14.32%;
+  bottom: 15.28%;
+  left: 82.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.connect-with,
+.welcome-to-orbiter {
+  position: absolute;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.welcome-to-orbiter {
+  top: 22.4%;
+  left: 63.9%;
+  font-size: 1.3em;
+  color: #4682b4; /* Adjust color as needed */
+}
+
+.connect-with {
+  top: 1.15%;
+  left: 0;
+}
+
+.connect-with-parent {
+  position: absolute;
+  top: 22.5%;
+  left: 55.6%;
+  width: 44.2%;
+  height: auto;
+  font-size: 3.3em;
+  color: #000000; /* Adjust color as needed */
+}
+
+.funded-by-rajasthan-container,
+.incubated-in-iit-container {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.frame-child {
+  width: 0;
+  position: relative;
+  height: auto;
+  object-fit: contain;
+}
+
+.funded-by-rajasthan-goverment-parent {
+  position: absolute;
+  top: 30.6%;
+  left: 46.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 2.5%;
+  font-size: 1.4em;
+  color: #cccccc; /* Adjust color as needed */
+}
+
+.download-now {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 600;
+}
+
+.download-now-wrapper {
+  border-radius: 2em;
+  background: linear-gradient(122.9deg, #085a87 2.7%, rgba(255, 205, 4, 0.8) 96.93%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2.2em;
+}
+
+.toppng-2-icon {
+  width: 13.9%;
+  position: relative;
+  height: auto;
+  object-fit: cover;
+}
+
+.frame-group {
+  position: absolute;
+  top: 37.5%;
+  left: 45.6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 2.4%;
+  font-size: 1em;
+  color: #ffffff; /* Adjust color as needed */
+  font-family: Arial, sans-serif; /* Adjust font-family as needed */
+}
+
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-inner,
+.frame-item,
+.star-icon {
+  width: 0.81%;
+  position: relative;
+  height: auto;
+}
+
+.component-4-parent {
+  position: absolute;
+  top: 12.2%;
+  left: 14.7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 3.5%;
+}
+
+.landing-page1 {
+  width: 100%;
+  position: relative;
+  background-color: #ffffff; /* Adjust background color as needed */
+  height: 1080px; /* Adjust height as needed */
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.125em;
+  color: #a9a9a9; /* Adjust text color as needed */
+  font-family: Arial, sans-serif; /* Adjust font-family as needed */
+}
+
