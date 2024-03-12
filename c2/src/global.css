@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-libre-baskerville: "Libre Baskerville";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-7xs: 6px;
+  --font-size-5xs: 8px;
+  --font-size-4xs-7: 8.7px;
+  --font-size-xs-7: 11.7px;
+  --font-size-3xs-5: 9.5px;
+  --font-size-5xs-3: 7.3px;
+
+  /* Colors */
+  --color-ivory: #fffbe9;
+  --color-gray: #7f7f7f;
+  --color-darkslategray-300: #455154;
+  --color-darkslategray-100: #37454f;
+  --color-darkslategray-200: #36454f;
+  --color-white: #fff;
+  --color-steelblue: #085a87;
+  --color-darkgray: #a9a9a9;
+  --color-black: #000;
+  --color-dimgray: #6f6f70;
+  --color-gold: #ffcd04;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-21xl: 40px;
+  --gap-11xs: 2px;
+  --gap-0: 0px;
+  --gap-11xl: 30px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-xl: 20px;
+  --padding-lg: 18px;
+  --padding-12xs: 1px;
+  --padding-6xl: 25px;
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
+  --padding-4xs: 9px;
+  --padding-6xs: 7px;
+  --padding-9xl: 28px;
+  --padding-11xl: 30px;
+  --padding-101xl: 120px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+  --br-11xs: 2px;
+  --br-xl: 20px;
+  --br-5xs-3: 7.3px;
+  --br-9xs-6: 3.6px;
+  --br-base: 16px;
+}

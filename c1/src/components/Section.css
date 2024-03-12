@@ -1,0 +1,122 @@
+.frameset1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+}
+.frame-line {
+  height: 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  min-width: 422px;
+  max-width: 100%;
+}
+.how-it-works1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #085a87 15%, #021621);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frame-line-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+}
+.frame-line-parent,
+.frame-line1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-line1 {
+  height: 28px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  min-width: 422px;
+}
+.frame-line-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 38px;
+}
+.orbiter-is-a {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-group,
+.orbiter-is-a-social-profession-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-poppins);
+}
+.frame-group {
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 40px 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-libre-baskerville);
+}
+@media screen and (max-width: 850px) {
+  .how-it-works1 {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-line {
+    min-width: 100%;
+  }
+  .how-it-works1 {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+  .frame-line1 {
+    min-width: 100%;
+  }
+  .frame-line-parent {
+    gap: 0 19px;
+  }
+  .orbiter-is-a {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .frame-group {
+    gap: 20px 0;
+  }
+}

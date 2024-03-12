@@ -1,0 +1,22 @@
+.about-us {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.property-1frame-3512-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 1px;
+  height: 0;
+}
+.property-1frame-3512 {
+  width: 105px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-libre-baskerville);
+}

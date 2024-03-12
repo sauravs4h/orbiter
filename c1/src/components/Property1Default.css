@@ -1,0 +1,31 @@
+.property-1default-child,
+.property-1default-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  height: 50px;
+}
+.property-1default-child {
+  border: 2px solid var(--color-steelblue);
+  box-sizing: border-box;
+  width: 250px;
+}
+.property-1default-item {
+  width: 47px;
+}
+.apply-for-investment {
+  position: absolute;
+  top: 14px;
+  left: 33px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.property-1default {
+  width: 250px;
+  height: 50px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+  font-family: var(--font-libre-baskerville);
+}

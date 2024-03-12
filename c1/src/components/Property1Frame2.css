@@ -1,0 +1,22 @@
+.socivo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+.property-1frame-3502-child {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 2px;
+  height: 0;
+}
+.property-1frame-3502 {
+  width: 77px;
+  height: 33px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-libre-baskerville);
+}
